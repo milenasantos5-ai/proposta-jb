@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 
 <html lang="pt-BR">
 <head>
@@ -147,7 +147,8 @@ color: #C47A45 !important; display: block; margin-bottom: 4px; letter-spacing: 0
 .para-quem-text { font-family: ‘Cormorant Garamond’, serif; font-weight: 300; font-size: clamp(20px, 3.5vw, 28px); line-height: 1.65; color: #2E2A24 !important; margin-top: 8px; }
 .para-quem-text em { font-style: italic; color: #C47A45 !important; }
 
-footer { background: #E0D5C5 !important; padding: 80px 40px; text-align: center; position: relative; }
+footer { background: #E0D5C5 !important; padding: 80px 40px; text-align: center; position: relative; overflow: hidden; }
+.footer-logo { text-align: center; width: 100%; }
 footer::before { content: ‘’; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 160px; height: 1px; background: linear-gradient(90deg, transparent, #C47A45, transparent); }
 
 .footer-logo { font-family: ‘Cormorant Garamond’, serif; font-weight: 300; font-size: 38px; color: #1E1A14; letter-spacing: 2px; margin-bottom: 6px; }
@@ -330,6 +331,40 @@ footer { padding: 60px 24px; }
   <p class="section-label">Para quem atendemos</p>
   <p class="para-quem-text">
     Profissionais e clínicas da <em>área da saúde,</em> noivas, famílias e empresas que querem construir uma presença visual consistente — com identidade própria e conteúdo que <em>realmente representa quem são.</em>
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<section class="reveal">
+  <p class="section-label">Investimento</p>
+  <p class="sobre-text">
+    Uma marca forte não acontece por acaso. Ela é construída com <em>intenção — toda semana.</em>
+  </p>
+  <p class="sobre-detail">
+    Oferecemos estruturas de produção que se adaptam ao momento da sua marca, sempre com roteirização, direção criativa e edição inclusos.
+  </p>
+
+  <div style="margin-top: 48px; display: flex; flex-direction: column; gap: 1px; background: #A8B5A2; border: 1px solid #A8B5A2;">
+    <div style="background:#F5F0EA; padding:32px 36px;">
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:19px; font-weight:400; color:#2E2A24; margin-bottom:10px;">Captação Pontual</h3>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:26px; color:#C47A45; margin-bottom:10px;">R$ 790</p>
+      <p style="font-size:12px; line-height:1.85; color:#5A5248;">Para projetos específicos ou um primeiro encontro com o nosso processo. Entrega completa, sem concessões.</p>
+    </div>
+    <div style="background:#F5F0EA; padding:32px 36px;">
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:19px; font-weight:400; color:#2E2A24; margin-bottom:10px;">Plano Quinzenal</h3>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:26px; color:#C47A45; margin-bottom:10px;">R$ 740 <span style="font-size:13px; color:#7A7060;">/ diária</span></p>
+      <p style="font-size:12px; line-height:1.85; color:#5A5248;">Consistência com espaço para respirar. Ideal para quem está construindo presença com estratégia.</p>
+    </div>
+    <div style="background:#F5F0EA; padding:32px 36px;">
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:19px; font-weight:400; color:#2E2A24; margin-bottom:10px;">Plano Semanal</h3>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:26px; color:#C47A45; margin-bottom:10px;">R$ 690 <span style="font-size:13px; color:#7A7060;">/ diária</span></p>
+      <p style="font-size:12px; line-height:1.85; color:#5A5248;">Para marcas que entendem que autoridade se constrói com frequência. O formato de quem quer liderar o próprio mercado.</p>
+    </div>
+  </div>
+
+  <p class="sobre-detail" style="margin-top: 40px; border-top: 1px solid #A8B5A2; padding-top: 36px;">
+    Cada plano inclui <strong style="color:#2E2A24; font-weight:400;">planejamento estratégico personalizado</strong> — porque o conteúdo que funciona é o que foi pensado para você.
   </p>
 </section>
 
