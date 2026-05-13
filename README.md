@@ -1,4 +1,3 @@
-# proposta-jb
 <!DOCTYPE html>
 
 <html lang="pt-BR">
@@ -6,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="only light">
-<title>JB Studio Criativo — Proposta</title>
+<title>JB Studio Criativo</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
 <style>
   :root { color-scheme: only light; }
@@ -48,7 +47,7 @@ pointer-events: none;
 z-index: 100;
 }
 
-.palette { display: flex; height: 5px; width: 100%; }
+.palette { display: flex; height: 5px; width: 100%; position: fixed; top: 0; left: 0; z-index: 200; }
 .palette span { flex: 1; }
 
 /* COVER */
@@ -91,7 +90,7 @@ letter-spacing: -1px;
 .cover-sub { margin-top: 28px; font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: #4A4820; }
 
 .cover-scroll {
-position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+position: absolute; bottom: 36px; left: 0; right: 0;
 display: flex; flex-direction: column; align-items: center; gap: 10px;
 animation: fadeUp 1.4s 0.4s ease both;
 }
